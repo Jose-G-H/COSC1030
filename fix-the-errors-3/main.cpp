@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Jose Garcia
+// 1/26/25
 // Fix the Errors #3 Programming Project
 // COSC 1030
 //
@@ -33,7 +33,9 @@ int main()
 		<< " and " << secondNumber << endl;
 
 	// Now we will swap the values.
-	firstNumber = secondNumber; secondNumber = firstNumber;
+	firstNumber = secondNumber + firstNumber; 
+	secondNumber = firstNumber - secondNumber;
+	firstNumber = firstNumber - secondNumber;
 
 	// Output the values.
 	cout << "After swapping, the values of the two numbers are "
