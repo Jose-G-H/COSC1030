@@ -32,10 +32,10 @@ tip_Amount = sub_Total * tip_Percent;
 Total = tip_Amount + sales_Tax + sub_Total;
 
 // Print information about the sale.
-cout << "Meal: "  << sub_Total  << endl;
-cout << "Tax: "   << sales_Tax  << endl;
-cout << "Tip: "   << tip_Amount << endl;
-cout << "Total: " << Total << endl;
+cout << "Meal: $"  << sub_Total  << endl;
+cout << "Tax: $"   << sales_Tax  << endl;
+cout << "Tip: $"   << tip_Amount << endl;
+cout << "Total: $" << Total << endl;
 return 0;
 
 }
