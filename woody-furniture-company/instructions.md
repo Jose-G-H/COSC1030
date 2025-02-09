@@ -1,4 +1,4 @@
-# Instructions  
+//# Instructions  
 
 The Woody furniture company sells the following three styles of chairs:
 
