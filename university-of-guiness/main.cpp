@@ -89,4 +89,6 @@ else
 //Display total cost of tuition
 cout << fixed << setprecision(2); 
 cout << "\nYour total tuition cost for the semester: $" << Total_cost << endl;
+
+return 0;
 }
