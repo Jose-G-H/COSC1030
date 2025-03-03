@@ -41,18 +41,20 @@ total = (quarters * quarter_worth) + (dimes * dime_worth)
         + (nickles * nickle_worth) + (pennies * penny_worth);
 
 // figure out if the total is a dollar
-
 if (total == one_dollar_worth) 
-{
+ {
     cout << "\nCongratulations! You entered exactly 1 dollar, You win!";
-} 
+ } 
 else if (total < one_dollar_worth)
-{
+ {
     cout << "\nThe amount you entered was less than 1 dollar.";
-}
+ }
 else 
-{
+ {
     cout << "\nThe amount you entered was more than 1 dollar.";
-}
+ }
+
+return 0;
+
 }
 
