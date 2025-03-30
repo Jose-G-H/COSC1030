@@ -22,7 +22,7 @@ int main()
     const int salsa_types = 5;
 
     // Array of salsa types
-    string names [salsa_types] = {"mild", "medium", "sweet", "hot", "zesty"};
+    string names [salsa_types] = {"Mild", "Medium", "Sweet", "Hot", "Zesty"};
 
     // Array of sales of each salsa type
     int sales[salsa_types];
@@ -50,10 +50,15 @@ int main()
     cout << "Name              Jars Sold \n";
     cout << "____________________________\n";
     
+    for (int i = 0; i < salsa_types; i++)
+    {
+        cout << setw(10) << names[i] << setw(10) << sales[i] << endl;
+    }
+
     // Display total sales, most sold, least sold
     cout << "\nTotal Sales:" << setw(15) << total_jars_sold << endl;
     cout << "High Seller: "  << names[most_sold] << endl;
-    cout << "least Seller: "   << names[least_sold] << endl;
+    cout << "Least Seller: "   << names[least_sold] << endl;
 
     return 0;
 
